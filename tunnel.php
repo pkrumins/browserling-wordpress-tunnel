@@ -9,7 +9,7 @@ $browserlingWordpressPath = "/wp/";
 
 // that's it
 
-$browserlingTunnelUrl = "http://tunnel.browserling.com:${browserlingTunnelPortl}$browserlingWordpressPath";
+$browserlingTunnelUrl = "http://tunnel.browserling.com:${browserlingTunnelPortl}${browserlingWordpressPath}";
  
 define('WP_SITEURL', $browserlingTunnelUrl);
 define('WP_HOME', $browserlingTunnelUrl);
